@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(243, 232, 246);
     margin:0px;
@@ -58,9 +59,10 @@ body {
     padding: 70px;
     padding-top: 30px;
     padding-bottom: 8px;
+    overflow: scroll;
 }
 
-.form {
+.info {
     height: 37vh;
     color:  rgb(14, 67, 14);
     font-size: 20px;
@@ -71,16 +73,16 @@ body {
     padding: 40px;
     padding-top: 3px;
     padding-bottom: 3px;
+    overflow: scroll;
 }
 
-.form > p {
+.info > p {
     font-size: 24px;
 }
 
-.form > form {
+.info > form {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 label {
@@ -100,10 +102,12 @@ form > div {
 }
 
 .bottom {
+    height: auto;
     margin-top: 50px;
     margin-left: 65px;
     margin-right: 65px;
     color: rgb(6, 28, 6);
+    overflow: scroll;
 }
 
 button {
